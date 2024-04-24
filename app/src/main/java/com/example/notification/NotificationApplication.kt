@@ -17,8 +17,8 @@ class NotificationApplication: Application() {
         notificationChannel.description = "here is the description"
 
         val notificationManager = getSystemService(NOTIFICATION_SERVICE) as NotificationManager
-        notificationManager.createNotificationChannel(notificationChannel)
 
+        notificationManager.createNotificationChannel(notificationChannel)
 
     }
 }
